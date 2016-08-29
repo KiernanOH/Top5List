@@ -1,0 +1,30 @@
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    background-color:black;
+    width : 300px;
+    padding : 0;
+}
+h1 {
+				color : #4d1300;
+				}
+			p {
+				color : #cc3300;
+			}
+			body {
+				background-color: #bfbfbf;
+			}
+.navitem a {
+	display : block;
+	color : white;
+	text-decoration: none;
+}
+.navitem a:hover {
+	background-color: white;
+	color:black;
+}
+.navitem a.active {
+	background-color:red;
+	color : black;
+}
